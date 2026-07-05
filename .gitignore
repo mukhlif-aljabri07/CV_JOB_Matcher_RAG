@@ -1,0 +1,33 @@
+# Ignore Laravel PHP dependencies
+/vendor
+
+# Ignore React JavaScript dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Ignore environment variables (This hides your database passwords and API keys!)
+.env
+.env.backup
+.env.production
+
+# Ignore Mac OS system files (if applicable)
+.DS_Store
+# Ignore Python virtual environments
+venv/
+env/
+
+# Ignore heavy downloaded AI models or image datasets
+*.pt
+*.pth
+*.h5
+/datasets
+
+# Ignore secret keys for any text/image generation APIs
+.env
+chroma_db
+chroma_db_cv_job
+# Ignore Python cache files
+__pycache__/
+*.pyc
+Ai/Demo/stable-diffusion-webui/
