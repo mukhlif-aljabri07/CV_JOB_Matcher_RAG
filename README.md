@@ -1,5 +1,7 @@
 # CV ↔ Job Match Analyzer
 
+**🔗 Live demo: [huggingface.co/spaces/mukhlif07/cv-job-matcher1](https://huggingface.co/spaces/mukhlif07/cv-job-matcher1)**
+
 A Retrieval-Augmented Generation (RAG) tool that compares a candidate's CV against a job description and produces an honest assessment of fit — strengths, gaps, and a direct verdict — grounded in the actual text of both documents rather than generic advice.
 
 Built with Python, Sentence-Transformers, ChromaDB, and Groq (Llama 3.3 70B).
